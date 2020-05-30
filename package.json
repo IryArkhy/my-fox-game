@@ -4,6 +4,7 @@
   "description": "Digital pet game",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/IryArkhy/my-fox-game/issues"
   },
-  "homepage": "https://github.com/IryArkhy/my-fox-game#readme"
+  "homepage": "https://github.com/IryArkhy/my-fox-game#readme",
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.5"
+  }
 }
